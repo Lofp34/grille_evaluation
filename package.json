@@ -1,0 +1,23 @@
+{
+  "name": "grille-evaluation",
+  "version": "1.0.0",
+  "description": "Grille d'évaluation express pour modules de démonstration",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step required for static HTML'",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "evaluation",
+    "grille",
+    "demonstration",
+    "html",
+    "static"
+  ],
+  "author": "Lofp34",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
