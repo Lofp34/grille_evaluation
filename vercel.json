@@ -1,23 +1,13 @@
 {
   "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "grille_express_application_html.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/grille_express_application_html.html"
+      "source": "/grille",
+      "destination": "/grille_express_application_html.html"
     },
     {
-      "src": "/grille",
-      "dest": "/grille_express_application_html.html"
-    },
-    {
-      "src": "/evaluation",
-      "dest": "/grille_express_application_html.html"
+      "source": "/evaluation",
+      "destination": "/grille_express_application_html.html"
     }
   ],
   "headers": [
