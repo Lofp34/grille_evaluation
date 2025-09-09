@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
-    "build": "echo 'No build step required for static HTML'",
+    "build": "echo 'Static HTML - no build required'",
     "dev": "npx serve ."
   },
   "keywords": [
